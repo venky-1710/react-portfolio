@@ -44,15 +44,6 @@ npm run dev
 ```
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-## Project Structure
-
-- `components/`: React components used throughout the site
-- `pages/`: Next.js pages
-- `public/`: Static assets
-- `styles/`: Global styles and Tailwind CSS configuration
-- `context/`: React context providers
-- `lib/`: Utility functions and data
-
 ## Customization
 
 To customize this portfolio for your own use:
