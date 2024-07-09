@@ -28,4 +28,48 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 ```sh
-git clone https://github.com/venky-1710/portfolio.git
+https://github.com/venky-1710/react-portfolio.git
+```
+2. Navigate to the project directory:
+```sh
+cd react-portfolio
+```
+3. Install dependencies:
+```sh
+npm install
+```
+4. Run the development server:
+```sh
+npm run dev
+```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+
+## Project Structure
+
+- `components/`: React components used throughout the site
+- `pages/`: Next.js pages
+- `public/`: Static assets
+- `styles/`: Global styles and Tailwind CSS configuration
+- `context/`: React context providers
+- `lib/`: Utility functions and data
+
+## Customization
+
+To customize this portfolio for your own use:
+
+1. Update the personal information in the components.
+2. Replace project details in the `Projects` component.
+3. Modify the skills and experience sections to match your background.
+4. Update the contact form to use your own email service.
+
+## Deployment
+
+This project can be easily deployed on Vercel, the platform created by the makers of Next.js. Simply connect your GitHub repository to Vercel for automatic deployments.
+
+## Contact Form
+
+The contact form uses React Email for sending emails. Make sure to set up the necessary environment variables for your email service provider.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
